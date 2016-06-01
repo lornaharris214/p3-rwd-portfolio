@@ -8,6 +8,86 @@ IMPORTS
 YOUR STYLES
 *******************/
 
+    body {
+        background: black;
+    }
+
+/* Branding & Personalization */
+    /* Header */
+
+            .navbar {
+                background-color: #233D42;
+                width: 100%;
+                height: 10%;
+                color: white;
+                z-index: 1;
+                padding: 10px;
+                margin: -10px 0 0 0;
+                position: fixed;
+                top: 0;
+            }
+
+            .navbar h1 {
+                color: #7BE7FF;
+                font-family: 'Alex Brush', cursive; 
+                font-size: 4em;
+                text-align: center;
+                margin-top: -180px;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            .navbar p {
+                color: white;
+                font-family: 'Open Sans', sans-serif;
+                font-size: .75em;
+                margin-top: -60px;
+                text-align: center;
+            }
+
+            .navbar svg {
+                width: 200px;
+                margin: -20px 10px 0px 0px;
+            }
+
+
+
+    /* Footer */
+            .footer-area {
+                width: 100%;
+                height: 20px;
+                color: white;
+                background-color: #233D42;
+                font-family: 'Open Sans', sans-serif;
+                text-align: center;
+                font-size: 0.75em;
+                position: fixed;
+                bottom: 0;
+                z-index: 1;
+            }
+
+/* Changing Original Documentation */
+
+
+.lg-backdrop { 
+    rgba(0,0,0,0.5);
+}
+
+
+.main-area {
+    padding: 250px;
+}
+
+.card {
+    padding: 25px;
+}
+
+.card-content {
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+    padding-bottom: 0;
+    
+}
 
 
 
