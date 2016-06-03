@@ -67,64 +67,68 @@ YOUR STYLES
 
 /* Changing Original Documentation */
 
+        .lg-backdrop { 
+            rgba(0,0,0,0.5);
+        }
 
-.lg-backdrop { 
-    rgba(0,0,0,0.5);
-}
 
+        .main-area {
+            padding: 2.5% 12% 10% 12%;
+        }
 
-.main-area {
-    padding: 5% 12% 10% 12%;
-}
+        .main-area p {
+            color: white;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .card {
+            padding: 25px;
+        }
 
-.card {
-    padding: 25px;
-}
+        .card img {
+            height: 401px;
+            width: 640px;
+        }
 
-.card img {
-    height: 401px;
-    width: 640px;
-}
+        .card-content {
+            text-align: center;
+            font-family: 'Alex Brush', cursive;
+            font-size: 2em;
+            padding-bottom: 0;
 
-.card-content {
-    text-align: center;
-    font-family: 'Alex Brush', cursive;
-    font-size: 2em;
-    padding-bottom: 0;
-    
-}
+        }
 
-.banner {
-    height: 15%;
-    width: 100%;
-    background: url(../img/dark_wood.png);
-    padding-top: 15%;
-    padding-bottom: 5%;
-}
+        .banner {
+            height: 15%;
+            width: 100%;
+            background: url(../img/dark_wood.png);
+            padding-top: 15%;
+            padding-bottom: 5%;
+        }
 
-.banner h1 {
-    font-family: 'Alex Brush', cursive;
-    font-size: 8em;
-    text-align: center;
-    text-shadow: 0.5px 0.5px 5px black;
-    color: white;
-    margin-top: -5%;
-}
+        .banner h1 {
+            font-family: 'Alex Brush', cursive;
+            font-size: 8em;
+            text-align: center;
+            text-shadow: 0.5px 0.5px 5px black;
+            color: white;
+            margin-top: -5%;
+        }
 
-.banner p {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 0.75em;
-    text-align: center;
-    text-shadow: 0.25px 0.25px 2.5px black;
-    margin-top: -4%;
-}
+        .banner p {
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            font-size: 0.75em;
+            text-align: center;
+            text-shadow: 0.25px 0.25px 2.5px black;
+            margin-top: -4%;
+        }
 
-.arrowdown {
-    width: 100px;
-    padding-left: 47.5%;
-    margin-top: -2%;
-}
+        .arrowdown {
+            width: 100px;
+            padding-left: 47.5%;
+            margin-top: -2%;
+        }
 
 /********************
 MEDIA QUERIES
